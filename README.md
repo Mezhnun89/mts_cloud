@@ -1,6 +1,12 @@
-# Проект: Анализ данных
+# Тестовое задание
 
-Этот проект содержит несколько скриптов для анализа и обработки данных с использованием Python и SQL. Скрипты охватывают различные задачи, включая обработку данных о продажах, школах и студентах, а также выполнение SQL-запросов для анализа данных в базе данных PostgreSQL.
+process_sales.py - скрипт для первого слайда
+get_top_products.py - скрипт для подзадачи с первого слайда
+process_school_data.py - скрипт для задачи со второго слайда
+process_student_performance.py -скрипт для задачи с третьего слайда
+
+В папке output_data храняться результаты работы скриптов
+В папке html храняться скрипты в формате html (для ознакомления с решением, если не получиться его запустить локально)
 
 ## Скрипты
 
@@ -17,7 +23,7 @@
 
 **Использование**:
 ```bash
-python process_sales.py
+python scripts/process_sales.py
 ```
 
 **Результат**:
@@ -36,7 +42,7 @@ python process_sales.py
 
 **Использование**:
 ```bash
-python get_top_products.py
+python scripts/get_top_products.py
 ```
 
 **Результат**:
@@ -56,7 +62,7 @@ python get_top_products.py
 
 **Использование**:
 ```bash
-python process_school_data.py
+python scripts/process_school_data.py
 ```
 
 **Результат**:
@@ -76,7 +82,7 @@ python process_school_data.py
 
 **Использование**:
 ```bash
-python process_student_performance.py
+python scripts/process_student_performance.py
 ```
 
 **Результат**:
@@ -97,4 +103,4 @@ python process_student_performance.py
 - `calculate_status_time.sql`: SQL-скрипт для расчета времени статусов.
 
 **Использование**:
-- Запустите SQL-скрипты в вашей базе данных PostgreSQL для выполнения расчетов и анализа данных.
+- Для запуска SQL-скриптов необходимо подключние к вашей базе данных PostgreSQL для выполнения расчетов и анализа данных.
